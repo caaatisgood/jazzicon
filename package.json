@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "beefy sample.js --live --open",
-    "build": "esbuild index.js --minify --bundle --outfile=build/index.min.js --global-name=jazzicon"
+    "build": "esbuild index.js --minify --bundle --outfile=browser-build/index.min.js --global-name=jazzicon"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
